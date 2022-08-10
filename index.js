@@ -1,8 +1,10 @@
 import createBareServer from '@tomphttp/bare-server-node';
 import http from 'http';
 import express from 'express';
-
-const httpServer = http.createServer();
+import cors from 'cors';
+const app = express();
+app.use(cors())
+const httpServer = http.createServer(app);
 
 
 const bareServer = createBareServer('/', {
