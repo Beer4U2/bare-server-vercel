@@ -11,8 +11,8 @@ const bareServer = createBareServer('/', {
     logErrors: false,
     localAddress: undefined,
     maintainer: {
-        email: 'tomphttp@sys32.dev',
-        website: 'https://github.com/tomphttp/',
+        email: 'illusionztba@gmail.com',
+        website: 'https://github.com/illusionTBA/bare-server-vercel',
     },
 });
 
