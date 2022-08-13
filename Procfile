@@ -1,1 +1,1 @@
-web: npm i && node .
+worker: npm i && node .
