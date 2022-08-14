@@ -6,11 +6,8 @@ const httpServer = http.createServer();
 
 const expressServer = express();
 
-expressServer.get('/', (req, res) => {
-	res.send('your looking for the <a href="/bare/">bare</a> route');
-});
 
-const bareServer = createBareServer('/bare/', {
+const bareServer = createBareServer('/', {
 	logErrors: false,
 	localAddress: undefined,
 	maintainer: {
